@@ -1,9 +1,9 @@
 package models
 
 type RoutingInfo struct {
-	Route []int `json:"route"`
+	Route []string `json:"route"`
 }
 
 type RoutingHistory struct {
-	History []int `json:"history"`
+	History []string `json:"history"`
 }
